@@ -12,7 +12,7 @@ options:
   logging: CLOUD_LOGGING_ONLY
 logsBucket: gs://cloudbuilds-log
 
-serviceAccount:382489043472-compute@developer.gserviceaccount.com
+serviceAccount: 382489043472-compute@developer.gserviceaccount.com
 
 # Optionally, define substitutions for your project ID
 substitutions:
