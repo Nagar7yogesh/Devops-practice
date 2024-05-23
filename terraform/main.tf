@@ -1,12 +1,12 @@
 provider "google" {
   project     = "dealofday-398415"
-  region      = "asia-south1"
+  region      = "us-central1-a"
 }
 
 resource "google_compute_instance" "my_instance" {
   name         = "my-vm-instance"
   machine_type = "e2-micro"
-  zone         = "asia-south1-c"
+  zone         = "us-central1-a"
   
   boot_disk {
     initialize_params {
