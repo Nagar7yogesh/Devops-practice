@@ -8,8 +8,7 @@ steps:
     terraform plan
   dir: 'terraform'
 
-options:
-  logging: CLOUD_LOGGING_ONLY
+
 logsBucket: gs://cloudbuilds-log
 
 serviceAccount: 382489043472-compute@developer.gserviceaccount.com
