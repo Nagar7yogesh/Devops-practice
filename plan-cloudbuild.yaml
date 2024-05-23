@@ -8,6 +8,9 @@ steps:
     terraform plan
   dir: 'terraform'
 
+options:
+  logging: NONE
+
 # Optionally, define substitutions for your project ID
 substitutions:
   _PROJECT_ID: dealofday-398415
